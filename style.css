@@ -1,0 +1,176 @@
+html
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	width: 100%;
+	scroll-behavior: smooth;
+	
+}
+
+/* CSS untuk ukuran layar kecil */
+@media screen and (max-width: 500px) {
+  .kanan{
+  	width: 20px
+  }
+  #aboutme{
+  	width: 30px
+  }
+  #footer{
+  	 	width: 30px
+  }
+  .photo{
+  	 	width: 30px
+  }
+  #perjalanan{
+  	 	width: 30px
+  }
+  h1{
+  	 	width: 30px
+  }
+  
+}
+
+/* CSS untuk ukuran layar menengah */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Atur gaya elemen-elemen untuk layar menengah di sini */
+}
+
+/* CSS untuk ukuran layar besar */
+@media screen and (min-width: 1025px) {
+  /* Atur gaya elemen-elemen untuk layar besar di sini */
+}
+
+.photo{
+	background-color:#0101;
+	float: left;
+	
+padding: 102px;
+	width:250px;
+
+	height:1522px;
+	text-align: center;
+	scroll-behavior: smooth;
+
+}
+
+img{
+	 width: 250px;
+   height: 250px;
+   border-radius: 50%;
+padding-top: 102px;
+padding: 10px;
+}
+
+
+
+button{
+	background-color:black ;
+	color: white;
+	border-radius: 5px;
+
+}
+
+button:hover{
+	color:black;
+	background: white
+	transition: 2s;
+
+}
+
+.btn{
+	margin-bottom:  40px;
+	font-size: 1.2rem;
+	width: 75%;
+	height: 50px;
+}
+
+.kanan{
+	float: left;
+	margin-right:12px;
+	padding-top: 50px;
+	padding-left: 100px;
+
+	left: 500px;
+}
+
+.kanan{
+	font-size:1.5rem;
+	display: flex;
+	padding: 12px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 51px;
+
+
+	
+
+}
+
+.listmenu{
+	float: right;
+	padding-right: 110px;
+	margin: 12px;
+	margin-right: 20px;
+	height: 50px;
+	width: 200px;
+	
+}
+
+#profilsaya{
+	position: absolute;
+	left: 500px;
+	padding-top: 80px;
+
+}
+
+#aboutme{
+	left: 200px;
+	padding:300px;
+
+}
+
+h1{
+	font-size: 2.2rem;
+}
+
+#contactme{ 
+	position: absolute;
+ left:500px;
+ padding-top:750px;
+}
+
+#perjalanan{
+	position: absolute;
+ left:500px;
+ padding-top:1200px;
+}
+
+#footer{
+	position: absolute;
+ left:500px;
+ padding-top:1650px;
+ text-align: center;
+}
+
+h1{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+h2{
+	font-family: 'Arimo', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+
+}
+
+p{
+	
+font-family: 'Montserrat', sans-serif;
+
+}
+/*
+@media screen and(max-width: 922px){
+	.body, {
+		width: 100%;
+	}
+}/*
